@@ -1,0 +1,11 @@
+streamlit
+opencv-python
+pytesseract
+pillow
+numpy
+pandas
+python-dotenv
+langchain
+langchain-google-genai
+google-generativeai
+requests
