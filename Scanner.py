@@ -20,7 +20,7 @@ from langchain_google_genai import GoogleGenerativeAI
 # ------------------ CONFIG ------------------
 pytesseract.pytesseract.tesseract_cmd = r"C:\\Program Files\\Tesseract-OCR\\tesseract.exe"
 load_dotenv()
-api_key = "AIzaSyA08sCvokmooE-XcYPEPdJMLBrjm4Ag5C8"  # Replace with your API key
+api_key = os.getenv("API_KEY")  # Replace with your API key
 
 # ------------------ OCR PREPROCESSING ------------------
 def preprocess_for_ocr(image):
@@ -393,6 +393,10 @@ with st.expander("💬 Share Feedback"):
     feedback = st.text_area("What do you think of this app? Any improvements?")
     if st.button("Submit Feedback"):
         st.success("Thanks for your feedback!")
+
+
+# In[ ]:
+
 
 
 
