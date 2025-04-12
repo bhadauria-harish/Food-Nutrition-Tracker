@@ -1,0 +1,108 @@
+.container {
+    max-width: 960px;
+    margin: 40px auto;
+    padding: 30px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    line-height: 1.6;      
+}
+
+h1, h2, h3 {
+    color: #007bff;
+    margin-bottom: 15px;
+}
+
+h1 {
+    font-size: 2.5em;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+h2 {
+    font-size: 1.8em;
+}
+
+h3 {
+    font-size: 1.4em;
+    margin-top: 20px;
+}
+
+p {
+    margin-bottom: 20px;
+}
+
+.section {
+    margin-bottom: 30px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #eee;
+}
+
+.section:last-child {
+    border-bottom: none;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+
+.feature-list {
+    list-style: none;
+    padding-left: 0;
+}
+
+.feature-list li {
+    margin-bottom: 10px;
+    padding-left: 25px;
+    position: relative;
+}
+
+.feature-list li::before {
+    content: '✓';
+    position: absolute;
+    left: 0;
+    color: #28a745;
+    font-weight: bold;
+}
+
+.team-member {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.team-member img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    margin-right: 20px;
+    object-fit: cover;
+}
+
+.team-member-info {
+    flex-grow: 1;
+}
+
+.team-member-info h4 {
+    margin-top: 0;
+    margin-bottom: 5px;
+    color: #333;
+}
+
+.team-member-info p {
+    margin-bottom: 5px;
+    color: #666;
+    font-size: 0.9em;
+}
+
+.contact-info p {
+    margin-bottom: 10px;
+}
+
+/* Optional: Add more specific styling for links, buttons, etc. */
+a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}

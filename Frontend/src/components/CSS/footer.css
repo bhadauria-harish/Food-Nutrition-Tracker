@@ -1,0 +1,102 @@
+/* Universal Reset */
+footer,
+.footer a,
+.footer ul,
+.footer li {
+    margin: 0;    /* Reset default margin */
+    padding: 0;   /* Reset default padding */
+    list-style: none; /* Remove bullet points from lists */
+    text-decoration: none; /* Remove underline from links */
+}
+
+.footer {
+    background-color: #232f34; /* Main footer background color */
+    color: #ffffff; /* Text color */
+    padding: 40px 20px; /* Outer padding for the footer */
+    display: flex; /* Enable flexbox */
+    flex-direction: column; /* Stack sections vertically */
+    align-items: center; /* Center horizontally */
+}
+
+.footer-container {
+    display: flex; /* Flex container for sections */
+    justify-content: space-between; /* Space between sections */
+    max-width: 1200px; /* Max width for large screens */
+    width: 100%; /* Full width */
+    flex-wrap: wrap; /* Allow wrapping on smaller screens */
+}
+
+.footer-section {
+    flex: 1; /* Stretch to fill available space */
+    min-width: 220px; /* Minimum width for responsiveness */
+    margin: 20px; /* Spacing between sections */
+    text-align: left; /* Align text to the left */
+}
+
+.footer-section h4 {
+    font-size: 20px; /* Size of section headings */
+    color: #f39c12; /* Heading color */
+    margin-bottom: 15px; /* Space below the heading */
+    /* Removed border-bottom to eliminate the line under headings */
+}
+
+.footer-section p {
+    font-size: 14px; /* Font size for paragraph text */
+    line-height: 1.6; /* Line height for readability */
+    color: #dfe6e9; /* Text color for body text */
+}
+
+.footer-section a {
+    color: #bbb3b3; /* Link color */
+    transition: color 0.3s ease; /* Smooth color transition */
+}
+
+.footer-section a:hover {
+    color: #e67e22; /* Change color on hover */
+    cursor: pointer;
+}
+
+/* Styles for the Socials Section */
+.socials {
+    display: flex; /* Flex layout for icons */
+    flex-direction: column; /* Stack social icons vertically */
+    align-items: flex-start; /* Align icons to the left */
+}
+
+.socials h4 {
+    margin-bottom: 10px; /* Space below heading */
+}
+
+.icons {
+    display: flex; /* Flex layout for icons */
+    gap: 15px; /* Spacing between icons */
+}
+
+.icons a i {
+    font-size: 28px; /* Size for icons */
+    color: #dfe6e9; /* Color for icons */
+    transition: color 0.3s; /* Transition for icon color */
+    background-color: rgba(255, 255, 255, 0.1); /* Background for icons */
+    border-radius: 50%; /* Rounded background */
+    padding: 10px; /* Padding around icons */
+    display: flex; /* Flex for icon alignment */
+    justify-content: center; /* Center icon */
+    align-items: center; /* Center icon vertically */
+    cursor: pointer;
+}
+
+.icons a i:hover {
+    color: #f39c12; /* Change color on hover */
+    background-color: rgba(255, 255, 255, 0.2); /* Background change on hover */
+}
+
+/* Footer Bottom Section */
+.footer-bottom {
+    background-color: #1b2326; /* Darker footer bottom background */
+    color: #bdc3c7; /* Light grey text color */
+    padding: 15px 0; /* Vertical padding */
+    width: 100%; /* Full width for bottom section */
+    text-align: center; /* Center text */
+    font-size: 14px; /* Font size for copyright text */
+}
+

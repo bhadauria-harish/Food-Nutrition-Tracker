@@ -1,0 +1,52 @@
+nav{
+    background-color: blueviolet;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    padding-block: 25px;
+    padding-inline: 50px;
+    align-items: center;
+
+}
+nav .logo{
+    font-size: 30px;
+    font-family: cursive;
+    font-weight: 800;
+    cursor: pointer;
+}
+nav .menus{
+    display: flex;
+    gap: 25px;
+}
+nav .menus .anchors{
+    color : #fff;
+    text-decoration: none;
+    font-size: 20px;
+    position: relative;
+    width: fit-content;
+}
+nav .menus .anchors::after{
+    content: "";
+    background: #fff;
+    position: absolute;
+    height: 0.15rem;
+    width: 0%;
+    left: 0;
+    bottom: 0px;
+    transition: width 0.5s ease-in-out;
+}
+nav .menus .anchors:hover::after{
+    width: 100%;
+}
+button{
+    padding-inline: 10px;
+    padding-block: 5px;
+    font-size: 15px;
+    cursor: pointer;
+    border: none;
+    outline: none;
+    background-color: red;
+    border-radius: 5px;
+    color: #fff;
+}
+

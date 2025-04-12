@@ -1,0 +1,126 @@
+.image-uploader {
+    max-width: 600px;
+    margin: 30px auto;
+    padding: 20px;
+    border: 2px dashed #3498db;
+    border-radius: 10px;
+    text-align: center;
+    background-color: #fff;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.image-uploader h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.upload-area {
+    display: block;
+    border: 2px dashed #3498db;
+    border-radius: 10px;
+    padding: 30px;
+    transition: background-color 0.3s;
+    cursor: pointer; /* Change cursor to indicate clickable area */
+}
+
+.upload-area p {
+    margin: 0;
+    color: #7f8c8d;
+    font-size: 16px;
+}
+
+.upload-area:hover {
+    background-color: #ecf0f1; /* Change background color on hover */
+}
+
+input[type="file"] {
+    display: none; /* Hide the default file input */
+}
+
+.generate-btn {
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #3498db;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.generate-btn:hover {
+    background-color: #2980b9;
+}
+.message{
+    margin-top: 30px;
+}
+.dataFood{
+    margin-block: 100px;
+    display: flex;
+    justify-content: center; 
+    text-align: center;
+    align-items: center;
+}
+.divFood{
+    display: flex;
+    justify-content: center; 
+    text-align: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+}
+.divFood h2{
+    font-size: 25px;
+    font-family: cursive;
+    font-weight: 500;
+}
+td,th{
+    padding-block: 5px;
+    padding-inline: 15px;
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+th, td {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 12px;
+    text-align: center;
+}
+
+th {
+    background-color: #007BFF;
+    color: white;
+    font-weight: bold;
+}
+
+tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+tr:hover {
+    background-color: #f1f1f1;
+}
+h3{
+    color: rgb(100, 177, 245);
+    font-size: 25px;
+    font-weight: 400;
+}
+.details{
+    border: 3px dashed red;
+    padding: 15px;
+    max-width: 600px;
+    background-color: #815959;
+    color: white;
+    border-radius: 10px;
+    transition: color 0.4s ease-in-out;
+    cursor: pointer;
+}
+.details:hover{
+    color: black;
+}

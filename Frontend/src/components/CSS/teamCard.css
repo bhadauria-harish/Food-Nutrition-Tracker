@@ -1,0 +1,24 @@
+.card{
+    display: flex;
+    padding: 7px;
+    flex-direction: column;
+    gap: 5px;
+    background-color: #ada0c0;
+    max-width: fit-content;
+    border-radius: 12px;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    transition: all 0.3s ease-out;
+}
+.card:hover{
+    transform: scale(1.05);
+}
+.card img{
+    width: 250px;
+    border-radius: 12px;
+    height: 250px;
+}
+.card p{
+    color: #fff;
+}
