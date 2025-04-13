@@ -1,11 +1,8 @@
-streamlit
-opencv-python
-pytesseract
-pillow
-numpy
-pandas
+fastapi
 python-dotenv
 langchain
+pyzbar
+Pillow
+opencv-python
+pytesseract
 langchain-google-genai
-google-generativeai
-requests
