@@ -216,6 +216,6 @@ def data(image_path):
     # print(result)
 
     # Print nicely in terminal (for debugging)
-    answer = json.dumps(result, indent=2)
-    print(answer)
-    return answer
+    # answer = json.dumps(result, indent=2)
+    # print(answer)
+    return result
