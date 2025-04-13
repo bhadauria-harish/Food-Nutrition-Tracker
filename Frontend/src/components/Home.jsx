@@ -1,13 +1,12 @@
 import React from "react";
 import "./CSS/home.css";
 import { useState } from "react";
-import detailsData from "./info";
 import MessageFeedback from "./MessageFeedback";
 import bg1 from "./assets/1.jpg"
 import bg2 from "./assets/2.jpg"
 import bg3 from "./assets/3.jpg"
 import bg4 from "./assets/4.jpg"
-import "./script/script.js"
+// import "./script/script.js"
 
 const Home = () => {
   const [image, setImage] = useState(null);
@@ -107,7 +106,7 @@ const Home = () => {
               onChange={handleFileChange}
             />
           </label>
-          {image && <div className="message">Selected File: {image.name}</div>}
+          {image && <div className="message">Selected File : {image.name}</div>}
           <button type="submit" className="generate-btn">
             Generate Result
           </button>
