@@ -1,8 +1,7 @@
 import React from 'react'
 import Header from './components/Header';
 import Footer from './components/Footer';
-import { useState } from 'react';
-import { NavLink, Route, Routes } from 'react-router-dom';
+import { Route, Routes } from 'react-router-dom';
 import Home from './components/Home';
 import About from './components/About';
 import Contact from './components/Contact';
