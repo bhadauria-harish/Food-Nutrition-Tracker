@@ -1,5 +1,5 @@
 
-# 📦 Barcode & Nutrition Analyzer
+# 📦 Food Nutrition Analyzer
 
 An intelligent web application that allows users to upload an image of a food product (with a barcode or QR code), then extracts the **barcode**, retrieves **nutrition details**, and enhances the result with **AI-powered health analysis** using LangChain and Gemini.
 
