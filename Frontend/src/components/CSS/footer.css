@@ -49,11 +49,13 @@ footer,
 .footer-section a {
     color: #bbb3b3; /* Link color */
     transition: color 0.3s ease; /* Smooth color transition */
+    text-decoration: none;
 }
 
 .footer-section a:hover {
     color: #e67e22; /* Change color on hover */
     cursor: pointer;
+    text-decoration: none;
 }
 
 /* Styles for the Socials Section */

@@ -1,11 +1,12 @@
 nav{
-    background-color: blueviolet;
+    background-color: rgb(78, 78, 139);
     color: #fff;
     display: flex;
     justify-content: space-between;
     padding-block: 25px;
     padding-inline: 50px;
     align-items: center;
+    max-height: 70px;
 
 }
 nav .logo{
