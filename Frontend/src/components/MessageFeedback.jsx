@@ -5,8 +5,9 @@ const MessageFeedback = (props) => {
     <>
         {props.details && <div class="feedbackMessage">
             <h3>{props.header}</h3>
-            <p className='details'>{props.details}</p>
-        </div>}
+            <p className='details' id={props.colorName}>{props.details}</p>
+        </div>
+        }
     </>
   )
 }

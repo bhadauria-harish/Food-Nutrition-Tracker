@@ -10,7 +10,7 @@ const Footer = () => {
     <div class="footer-container">
         <div class="footer-section">
             <h4>About Us</h4>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque at feugiat nunc.</p>
+            <p>At Food Nutrition Tracker , our mission is to empower you to make informed food choices effortlessly.</p>
             <NavLink href="/about">Learn More</NavLink>
         </div>
         <div class="footer-section">

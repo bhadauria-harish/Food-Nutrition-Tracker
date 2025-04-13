@@ -7,26 +7,26 @@ const TeamInfo = () => {
 
   const teamInfo = [
     {
-      name: "Aryan Raj",
-      role: "Developer",
+      name: "Harish Singh Bhadauria",
+      role: "AI/ML Developer",
       image_url: myImage, // Adjust the path if necessary
       id: "1"
     },
     {
       name: "Aryan Raj",
-      role: "Developer",
+      role: "Web Developer",
       image_url: myImage, // Adjust the path if necessary
       id: "1"
     },
     {
-      name: "Aryan Raj",
-      role: "Developer",
+      name: "Aditya Mishra",
+      role: "ML Developer",
       image_url: myImage, // Adjust the path if necessary
       id: "1"
     },
     {
-      name: "Aryan Raj",
-      role: "Developer",
+      name: "Harshit Prakash",
+      role: "Web Developer",
       image_url: myImage, // Adjust the path if necessary
       id: "1"
     }
@@ -35,7 +35,7 @@ const TeamInfo = () => {
   return (
     <>
       <div className="teamSection">
-        <h1>Our Team</h1>
+        <h1 className='ourteam'>Our Team</h1>
         <div className="teamCardsSection">
           {teamInfo.map((data) => (
             <TeamCard 
