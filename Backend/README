@@ -1,1 +1,13 @@
-.
+To Run Backend files:
+
+1. Download all the files.
+2. Enter your API keys in .env file.
+    GEMINI_API_KEY, GOOGLE_API_KEY and API_KEY   are same which is Gemini API keys
+    LANGCHAIN_API_KEY = ""
+    UPC_DB_API_KEY= ""
+
+3. Run pip requirements.txt in termial.
+4. Open main.py
+5. Open terminal and Type 
+                  uvicorn main:app --reload
+6. Caution: Do not close the file.
