@@ -30,7 +30,6 @@ def parse_gemini_json(raw_text):
     try:
         return json.loads(cleaned)
     except json.JSONDecodeError:
-        # print("⚠️ Failed to parse Gemini output to JSON.")
         return {"raw_text": raw_text}
 
 def extract_essential_nutrients(nutrients):
@@ -75,7 +74,6 @@ def get_from_openfoodfacts(barcode):
     data = res.json()
     if data.get("status") == 1:
         product = data["product"]
-        # print("✅ Found product in OpenFoodFacts.")
         name = product.get("product_name", "N/A")
         brand = product.get("brands", "N/A")
         category = product.get("categories", "N/A")
@@ -101,7 +99,6 @@ def get_from_upcdb(barcode):
     data = res.json()
     if data.get("code") == "OK" and data["total"] > 0:
         item = data["items"][0]
-        # print("✅ Found product in UPC DB.")
         name = item.get("title", "N/A")
         brand = item.get("brand", "N/A")
         category = item.get("category", "N/A")
@@ -208,14 +205,7 @@ def get_product_info(barcode):
 
     return final_output
 
-# image_path = r"C:\Users\bhada\Desktop\Food-Nutrition-Tracker-main\temp\barcode.png"  # Provide the path to your image here
-
 def data(image_path):
     number = barcode_number(image_path)
     result = get_product_info(number)
-    # print(result)
-
-    # Print nicely in terminal (for debugging)
-    # answer = json.dumps(result, indent=2)
-    # print(answer)
     return result
